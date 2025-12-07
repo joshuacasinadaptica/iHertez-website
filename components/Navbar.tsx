@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="#" className="font-serif text-2xl font-bold tracking-tight text-journal-black">
+            <a href="#" onClick={(e) => { e.preventDefault(); window.location.hash = ''; window.scrollTo(0, 0); }} className="font-serif text-2xl font-bold tracking-tight text-journal-black">
               I. Hertez
               <span className="text-journal-red text-3xl leading-none">.</span>
             </a>

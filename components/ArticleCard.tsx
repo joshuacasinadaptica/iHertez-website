@@ -8,9 +8,11 @@ interface ArticleCardProps {
 }
 
 const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = false }) => {
+  const articleUrl = `#article/${article.slug}`;
+
   if (featured) {
     return (
-      <div className="group cursor-pointer grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-start">
+      <a href={articleUrl} className="group cursor-pointer grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-start block">
         <div className="overflow-hidden bg-gray-100 aspect-video lg:aspect-auto lg:h-full">
            <img 
             src={article.imageUrl} 
@@ -39,12 +41,12 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = false }) 
             </span>
           </div>
         </div>
-      </div>
+      </a>
     );
   }
 
   return (
-    <div className="group cursor-pointer flex flex-col h-full border-b border-gray-200 pb-8 hover:border-journal-red transition-colors duration-300">
+    <a href={articleUrl} className="group cursor-pointer flex flex-col h-full border-b border-gray-200 pb-8 hover:border-journal-red transition-colors duration-300 block">
       <div className="overflow-hidden aspect-[3/2] mb-5 bg-gray-100">
         <img 
           src={article.imageUrl} 
@@ -65,7 +67,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = false }) 
           {article.summary}
         </p>
       </div>
-    </div>
+    </a>
   );
 };
 

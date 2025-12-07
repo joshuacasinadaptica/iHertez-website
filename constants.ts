@@ -15,7 +15,8 @@ export const ARTICLES: Article[] = [
     category: 'Sports',
     date: 'Dec 15, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800',
-    readTime: '5 min read'
+    readTime: '5 min read',
+    slug: 'snhs-track-team-dominates-central-luzon-regional-athletic-association-meet'
   },
   {
     id: '2',
@@ -24,7 +25,8 @@ export const ARTICLES: Article[] = [
     category: 'Environment',
     date: 'Nov 22, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&q=80&w=800',
-    readTime: '6 min read'
+    readTime: '6 min read',
+    slug: 'subic-bay-coastal-cleanup-students-remove-marine-debris'
   },
   {
     id: '3',
@@ -33,7 +35,8 @@ export const ARTICLES: Article[] = [
     category: 'Culture & Heritage',
     date: 'Oct 18, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&q=80&w=800',
-    readTime: '7 min read'
+    readTime: '7 min read',
+    slug: 'spanish-gate-restoration-preserving-subic-heritage'
   },
   {
     id: '4',
@@ -42,7 +45,8 @@ export const ARTICLES: Article[] = [
     category: 'Education',
     date: 'Sep 10, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=800',
-    readTime: '4 min read'
+    readTime: '4 min read',
+    slug: 'deped-inaugurates-new-e-library-subic-national-high-school'
   },
   {
     id: '5',
@@ -51,7 +55,8 @@ export const ARTICLES: Article[] = [
     category: 'Culture & Heritage',
     date: 'Aug 25, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800',
-    readTime: '5 min read'
+    readTime: '5 min read',
+    slug: 'capones-island-lighthouse-snhs-students-document-landmark'
   },
   {
     id: '6',
@@ -60,7 +65,8 @@ export const ARTICLES: Article[] = [
     category: 'Environment',
     date: 'Jul 14, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&q=80&w=800',
-    readTime: '6 min read'
+    readTime: '6 min read',
+    slug: 'ocean-adventure-partners-snhs-marine-conservation-program'
   },
   {
     id: '7',
@@ -69,7 +75,8 @@ export const ARTICLES: Article[] = [
     category: 'Community',
     date: 'Jun 8, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=800',
-    readTime: '4 min read'
+    readTime: '4 min read',
+    slug: 'malawaan-park-cleanup-initiative-students-restore-olongapo-landmark'
   },
   {
     id: '8',
@@ -78,7 +85,8 @@ export const ARTICLES: Article[] = [
     category: 'Local News',
     date: 'May 20, 2023',
     imageUrl: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=800',
-    readTime: '5 min read'
+    readTime: '5 min read',
+    slug: 'subic-bay-international-airport-new-direct-flights-boost-tourism'
   }
 ];
 

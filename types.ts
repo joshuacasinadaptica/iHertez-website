@@ -6,6 +6,8 @@ export interface Article {
   date: string;
   imageUrl: string;
   readTime: string;
+  slug: string;
+  content?: string;
 }
 
 export interface PressItem {

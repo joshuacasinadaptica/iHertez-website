@@ -14,7 +14,7 @@ const Portfolio: React.FC = () => {
             <h2 className="text-sm font-bold uppercase tracking-widest text-journal-red mb-2">Selected Reports</h2>
             <h3 className="text-4xl font-serif font-bold text-journal-black">Stories from Subic Bay & Olongapo</h3>
           </div>
-          <a href="#" className="text-sm font-medium text-journal-gray hover:text-journal-black underline decoration-gray-300 hover:decoration-journal-black underline-offset-4">
+          <a href="#work" className="text-sm font-medium text-journal-gray hover:text-journal-black underline decoration-gray-300 hover:decoration-journal-black underline-offset-4">
             View All Broadcasts
           </a>
         </div>
