@@ -30,10 +30,10 @@ const About: React.FC = () => {
                 My name is Isabelle Hertez. I am a campus journalist and Grade 10 student at <strong>Subic National High School</strong> in Olongapo City.
               </p>
               <p>
-                From covering the bustling events of the Division Schools Press Conference to highlighting local community initiatives in Zambales, I am passionate about using my voice to inform and empower my fellow students. I believe that even at a young age, journalism is a powerful tool for positive change.
+                From covering the bustling events of the Division Schools Press Conference to highlighting local community initiatives in Subic Bay Freeport Zone, I am passionate about using my voice to inform and empower my fellow students. I believe that even at a young age, journalism is a powerful tool for positive change.
               </p>
               <p>
-                As a broadcaster for our school publication, I strive to deliver accurate news that reflects the vibrant life of Olongapo and the achievements of our youth.
+                As a broadcaster for our school publication, I strive to deliver accurate news that reflects the vibrant life of Olongapo City—from our athletes competing in Palarong Pambansa to environmental initiatives at Subic Bay, from preserving historical landmarks like the Spanish Gate to celebrating our community's achievements.
               </p>
             </div>
 

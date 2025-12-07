@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <span className="font-light italic text-gray-400">the</span> Campus
           </h1>
           <p className="text-xl md:text-2xl text-journal-gray font-light max-w-2xl mx-auto leading-relaxed font-serif delay-100 fade-in-up">
-            Reporting on the stories that matter to Olongapo City, from the hallways of Subic National High to the heart of our community.
+            Reporting on the stories that matter to Olongapo City and Subic Bay, from the hallways of Subic National High School to the historic Spanish Gate, from Palarong Pambansa victories to coastal conservation efforts.
           </p>
           
           <div className="pt-12 delay-200 fade-in-up">

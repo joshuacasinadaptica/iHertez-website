@@ -15,11 +15,11 @@ const Footer: React.FC = () => {
           </p>
         </div>
         
-        <div className="flex space-x-6">
-          <a href="#" className="text-sm text-gray-500 hover:text-journal-red transition-colors">Privacy Policy</a>
-          <a href="#" className="text-sm text-gray-500 hover:text-journal-red transition-colors">Terms of Use</a>
-          <a href="#" className="text-sm text-gray-500 hover:text-journal-red transition-colors">Twitter</a>
-          <a href="#" className="text-sm text-gray-500 hover:text-journal-red transition-colors">LinkedIn</a>
+        <div className="flex flex-wrap justify-center gap-6">
+          <a href="mailto:isabelle.hertez@student.deped.gov.ph" className="text-sm text-gray-500 hover:text-journal-red transition-colors">Contact</a>
+          <a href="https://www.deped.gov.ph" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-journal-red transition-colors">DepEd Region III</a>
+          <a href="https://www.olongapocity.gov.ph" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-journal-red transition-colors">Olongapo City</a>
+          <a href="https://www.sbma.com" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-journal-red transition-colors">SBMA</a>
         </div>
       </div>
     </footer>

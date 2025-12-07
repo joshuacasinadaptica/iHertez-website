@@ -34,11 +34,11 @@ const Contact: React.FC = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 text-journal-dark">
                     <MapPin size={18} className="text-journal-red" />
-                    <span className="text-sm">Subic National High School<br/>Olongapo City, Zambales</span>
+                    <span className="text-sm">Subic National High School<br/>Rizal Avenue Extension<br/>Olongapo City, Zambales 2200</span>
                   </div>
                   <div className="flex items-center space-x-3 text-journal-dark">
                     <Mail size={18} className="text-journal-red" />
-                    <span className="text-sm">isabelle.h@student.deped.gov.ph</span>
+                    <span className="text-sm">isabelle.hertez@student.deped.gov.ph</span>
                   </div>
                 </div>
               </div>
